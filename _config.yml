@@ -1,8 +1,7 @@
 # Site settings
 title: mek's notepad
 email: mek.xgt@gmail.com
-description: >
-    Embedded systems enthusiast public notepad
+description: Embedded systems enthusiast public notepad
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://mek-x.github.io" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
