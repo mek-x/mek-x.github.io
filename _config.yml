@@ -1,11 +1,22 @@
 # Site settings
-title: mek's notepad
-email: mek.xgt@gmail.com
-description: Embedded systems enthusiast public notepad
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://mek-x.github.io" # the base hostname & protocol for your site
-#twitter_username: jekyllrb
+title:         mek's notepad
+tagline:       embedded and linux notes
+email:         mek.xgt@gmail.com
+url:           "http://mek-x.github.io"
+description:   Embedded systems and Linux enthusiast notepad
+baseurl:       ""
+
+
+author:
+  name:        "Kamil Wcislo"
+  url:         "http://mek-x.github.io"
+
+paginate: 5
+
+
 github_username:  mek-x
 
+
 # Build settings
-markdown: kramdown
+markdown:     kramdown
+highlighter:  pygments
