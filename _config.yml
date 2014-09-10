@@ -1,22 +1,19 @@
 # Site settings
 title:         mek's notepad
-tagline:       embedded and linux notes
-email:         mek.xgt@gmail.com
+tagline:       embedded linux
 url:           "http://mek-x.github.io"
-description:   Embedded systems and Linux enthusiast notepad
+description:   Embedded systems and Linux enthusiast's notepad
 baseurl:       ""
-
 
 author:
   name:        "Kamil Wcislo"
   url:         "http://mek-x.github.io"
 
-paginate: 5
-
-
+# github
 github_username:  mek-x
 
 
 # Build settings
 markdown:     kramdown
 highlighter:  pygments
+paginate:     5
