@@ -5,13 +5,6 @@ date:   2014-09-08
 categories: openwrt
 ---
 
-All right. So let's begin our little adventure ;). As those will be my very 
-first publications, expect some fallbacks. I will try to make as few of them
-as I can, but I suppose it won't be that easy. If somebody has some kind of
-feedback or other comments feel free to contact me.
-
----
-
 Introduction
 ------------
 
