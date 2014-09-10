@@ -1,6 +1,6 @@
 ---
 layout: page
-title: about
+title: /about
 permalink: /about/
 ---
 
@@ -20,4 +20,5 @@ About this site
 ---------------
 
 I'm treating this site as my hobby, so expect changes. The code is shared on my github
-account. For now, I'm using the [Jekyll](http://jekyllrb.com/) framework to build it.
+account. For now, I'm using the [Jekyll](http://jekyllrb.com/) framework with modified
+[Hyde/Poole](http://getpoole.com/) theme to build it.

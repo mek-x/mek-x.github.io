@@ -13,7 +13,7 @@ feedback or other comments feel free to contact me.
 ---
 
 Introduction
-============
+------------
 
 Some time ago I received as a gift small, little, industrial computer.
 It isn't very powerful but it's very power efficient. Especially for a x86 
@@ -28,7 +28,7 @@ experiences.
 
 
 The machine
-===========
+-----------
 
 The machine can be found [here](http://www.compactpc.com.tw/en/product/EBOX-3300A-JSK/ebox-3300a-jsk.html).
 I'm going to show some more interesting specs with my comments.
@@ -65,7 +65,7 @@ So, it's quite capable device in such a small box.
 
 
 The plan
-========
+--------
 
 Recently, my old Netgear router (802.11g and WPA only - sic!) started behaving
 bad and generally I had enough of it. It worked for quite some years, but
