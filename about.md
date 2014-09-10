@@ -9,11 +9,11 @@ About myself
 
 Hello everybody,
 
-my name is Kamil and I'm embedded systems and wireless sensor networkenthusiast.
+my name is Kamil and I'm embedded systems and wireless sensor networks enthusiast.
 Especially I'm interested in those Linux and/or RTOS powered. During my free time I tend to
 play with them a little ;).
 
-I've decided to to share some of my work and my passion, so I'm starting this online notebook.
+I've decided to share some of my work and my passion, so I'm starting this online notebook.
 
 
 About this site
