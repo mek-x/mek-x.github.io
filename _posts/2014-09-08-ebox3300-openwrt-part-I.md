@@ -5,6 +5,10 @@ date:   2014-09-08
 categories: openwrt
 ---
 
+In this series, I'll describe my adventure with Ebox3300 industrial mini-pci
+and turning it to quite capable router. It'll be also a little guide
+how to hack OpenWRT Linux distribution.
+
 Introduction
 ------------
 
@@ -17,7 +21,6 @@ It was laying around for some time collecting dust, because I haven't got
 any use for it (or so I thought ;)). Now the time has come to make
 something productive out of it. Also I thought, I will share some of my 
 experiences.
-
 
 
 The machine
