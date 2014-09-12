@@ -1,7 +1,7 @@
 ---
-layout: post
-title:  "OpenWRT on Ebox3300 part II"
-date:   2014-09-12
+layout:     post
+title:      "OpenWRT on Ebox3300 part II"
+date:       2014-09-12
 categories: openwrt
 ---
 
@@ -12,7 +12,7 @@ OpenWRT is linux distibution, which can be used on many routers. It has
 package system based on _opkg_ (which is quite similar in usage as Debian's
 _dpkg_, but intended for embedded systems) and _uci_ configuration system.
 The specifics can be found on the [OpenWRT homepage](https://openwrt.org/).
-Especially I recommend reading the Documentation section as it provides
+Especially, I recommend reading the Documentation section as it provides
 good starting point.
 
 I decided to use this distribution on my device, because it's quite mature
@@ -28,9 +28,9 @@ section of the homepage (for x86 architecture), but it won't work. The first
 step is to get the sources from Development page: 
 [https://dev.openwrt.org/wiki/GetSource](https://dev.openwrt.org/wiki/GetSource)
 
-There is instruction how to get the sources. I recommend getting them by _git_.
+There are instructions how to get the sources. I recommend getting them by _git_.
 It should be quite straightforward, we only need to install this tool. Every
-major linux distribution has it in their repositories. For example, in 
+major linux distribution has it in its repositories. For example, in 
 Archlinux distro (which I use) command to install it, is:
 
 ```pacman -S git```
