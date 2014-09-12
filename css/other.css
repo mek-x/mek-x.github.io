@@ -1,7 +1,13 @@
 .icon > svg {
     display: inline-block;
-    width: 16px;
+    width: 32px;
     height: 16px;
+}
+
+.rss-icon {
+    display: inline-block;
+    height: 22px;
+    width: 32px;
 }
 
 .licence-img {
