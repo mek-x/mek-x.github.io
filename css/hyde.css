@@ -177,6 +177,21 @@ a.sidebar-nav-item:focus {
 
 /* Base16 (http://chriskempson.github.io/base16/#default) */
 
+.theme-base-custom .sidebar {
+  background-color: #200000;
+}
+
+.theme-base-custom .content a {
+  color: #300000;
+  transition: color 0.3s;
+}
+
+.theme-base-custom .content a:hover {
+  text-decoration: none;
+  color: #b00000;
+}
+
+
 /* Red */
 .theme-base-08 .sidebar {
   background-color: #ac4142;
@@ -189,6 +204,7 @@ a.sidebar-nav-item:focus {
 /* Orange */
 .theme-base-09 .sidebar {
   background-color: #d28445;
+  tepad
 }
 .theme-base-09 .content a,
 .theme-base-09 .related-posts li a:hover {
