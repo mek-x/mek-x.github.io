@@ -12,6 +12,8 @@ author:
 # github
 github_username:  mek-x
 
+# bitbucket
+bitbucket_username: mek_x
 
 # Build settings
 markdown:     kramdown
