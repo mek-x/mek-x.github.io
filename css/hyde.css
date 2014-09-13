@@ -67,6 +67,7 @@ html {
     bottom: 0;
     width: 18rem;
     text-align: left;
+    box-shadow: 0 0 2rem 0 black;
   }
 }
 
