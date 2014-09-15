@@ -6,8 +6,8 @@ categories: openwrt
 ---
 
 This part will contain getting the OpenWRT distribution and making basic
-build. In next part we deal with running newly created image on actual
-hardware.
+build.
+
 
 The OpenWRT
 -----------
