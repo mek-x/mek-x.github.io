@@ -19,7 +19,11 @@ title: /home
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
-    {{ post.content }}
+    {{ post.excerpt }}
+
+    <div class="post-below">
+      <a href="{{ post.url }}"><span class="read-more">Read more</span></a>
+    </div>
   </div>
   <hr />
   {% endfor %}
