@@ -13,4 +13,16 @@
     margin: auto;
 }
 
+.post-below {
+    margin-top: 2rem;
+}
 
+.read-more {
+    margin: auto;
+    padding: 0.25rem;
+    border: 1px solid #eee;
+}
+
+.read-more:hover {
+    background-color: #f5f5f5;
+}
