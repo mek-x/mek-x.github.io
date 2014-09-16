@@ -19,3 +19,4 @@ bitbucket_username: mek_x
 markdown:     kramdown
 highlighter:  pygments
 paginate:     5
+permalink:    /posts/:year/:month/:day/:title/
