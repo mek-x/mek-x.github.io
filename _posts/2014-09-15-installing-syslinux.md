@@ -26,9 +26,9 @@ fdisk /dev/mmcblk0
 o
 n
 p
-&crarr;
-&crarr;
-&crarr;
+[ENTER]
+[ENTER]
+[ENTER]
 a
 w
 {% endhighlight %}
