@@ -19,20 +19,19 @@ title: /home
 
     <span class="post-date">
       {{ post.date | date_to_string }} | 
-      <a href="{{ site.url }}{{ post.url }}#disqus_thread">
+      <a href="{{ site.url }}{{ post.url }}#disqus_thread"
+         data-disqus-identifier="{{ post.url }}">
         Comments
       </a>
     </span>
 
     {{ post.excerpt }}
-
     <div class="post-below">
       <a href="{{ post.url }}"><span class="read-more">Read more</span></a>
     </div>
   </div>
   <hr />
 
-  {% include comments_count_home.html %}
   {% endfor %}
 </div>
 
@@ -53,4 +52,5 @@ title: /home
   {% endif %}
 </div>
 
+{% include comments_count.html %}
 
