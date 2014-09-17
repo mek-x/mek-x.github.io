@@ -15,9 +15,9 @@ Preparing target
 ----------------
 
 Our target will be standard µSD card. We'll use one partition formatted
-as ext2. In my system the card is seen as _/dev/mmcblk0_.
+as ext2. In my system the card is seen as `/dev/mmcblk0`.
 First we need to create partition on it using our favourite tool.
-I use _fdisk_ (root permissions are probably needed to successfully run this
+I use `fdisk` (root permissions are probably needed to successfully run this
 command). This is sequence of commands to create one partition on the device,
 using whole available space and making it bootable:
 
@@ -34,9 +34,9 @@ w
 {% endhighlight %}
 
 After successfully creating new partition we must format it with, for example,
-_mke2fs_ command, which is often part of package named _e2fstools_,
-_e2fsprogs_ or something similar --- it depends on our linux distribution.
-After creating partition, there should be _/dev/mmcblk0p1_ device. That's
+`mke2fs` command, which is often part of package named `e2fstools`,
+`e2fsprogs` or something similar --- it depends on our linux distribution.
+After creating partition, there should be `/dev/mmcblk0p1` device. That's
 our partition.
 
 ```
@@ -54,19 +54,19 @@ Installing Syslinux
 Sometimes there is precompiled package in our distro repositories, but it's
 more fun to compile Syslinux ourselves. First we need sources from
 [here](https://www.kernel.org/pub/linux/utils/boot/syslinux/). Newest version
-is fine (I've used 6.02). For building it we need _perl_, _nasm_ assembler,
-and of course _gcc_ with other standard build tools (like _make_ etc.).
+is fine (I've used 6.02). For building it we need `perl`, `nasm` assembler,
+and of course `gcc` with other standard build tools (like `make` etc.).
 We build it by running:
 
-```
+`
 make bios
-```
+`
 
-If we just run ```make``` it will build also the EFI version which is not
-needed. After, hopefully, successfull build we have our tool in
-_bios/extlinux_ directory and there is
-[master boot record](http://en.wikipedia.org/wiki/Master_boot_record)
-image: _bios/mbr/mbr.bin_ which we also need. The installation is described
+If we just run `make` it will build also the EFI version which is not
+needed. After, hopefully, successfull build our tool is
+`bios/extlinux/extlinux` and there is also
+[master boot record](http://en.wikipedia.org/wiki/Master`boot`record)
+image: `bios/mbr/mbr.bin` which we'll need. The installation is described
 in details [here](http://www.syslinux.org/wiki/index.php/EXTLINUX).
 In my system, I do it that way (as root):
 
@@ -76,17 +76,17 @@ mount /dev/mmcblk0p1 /mnt/media
 cat bios/mbr/mbr.bin > /dev/mmcblk0
 {% endhighlight %}
 
-Now we must create syslinux configuration file _extlinux.conf_ on the target
+Now we must create syslinux configuration file `extlinux.conf` on the target
 partition where we installed syslinux. It's contents for me in Ebox3300
 project are:
 
-<pre>
+{% highlight text %}
 DEFAULT linux
 LABEL linux
     SAY Now booting the kernel...
     KERNEL vmlinuz
     APPEND console=ttyS0,115200n8
-</pre>
+{% endhighlight %}
 
 For details look at the Syslinux homepage.
 
@@ -97,6 +97,6 @@ Summary
 -------
 
 This is quick, dirty and basic how-to concerning installing bootloader
-manually for our project. We may also use _grub_, which is also great
+manually for our project. We may also use Grub, which is also great
 bootloader and can be used, of course.
 
