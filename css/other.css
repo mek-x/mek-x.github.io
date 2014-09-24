@@ -11,6 +11,8 @@
 .licence-img {
     display: inline-block;
     margin: auto;
+    width: auto;
+    box-shadow: none;
 }
 
 .post-below {

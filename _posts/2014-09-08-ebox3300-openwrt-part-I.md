@@ -59,6 +59,7 @@ Here are the specs:
 
 So, it's quite capable device in such a small box.
 
+![Ebox3300](/images/ebox/ebox3300.jpg "Ebox3300 itself")
 
 The plan
 --------
