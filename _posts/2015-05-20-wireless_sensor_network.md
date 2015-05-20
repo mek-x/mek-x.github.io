@@ -52,4 +52,4 @@ Those are the basic requirements I'd like for this system.
 In the future, when I will have it running, I will expand it to present
 collected data on some Internet site or/and connect it to global
 [APRS](http://en.wikipedia.org/wiki/Automatic_Packet_Reporting_System) network,
-since I'm also licensed ham-radio operator and also it would be fun ;).
+since I'm licensed ham-radio operator and also it would be fun ;).
