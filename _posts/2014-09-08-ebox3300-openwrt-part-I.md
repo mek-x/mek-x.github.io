@@ -2,7 +2,8 @@
 layout: post
 title:  "OpenWRT on Ebox3300 part I"
 date:   2014-09-08
-categories: openwrt
+tags:   openwrt
+categories: ebox
 ---
 
 In this series, I'll describe my adventure with Ebox3300 industrial mini-pci

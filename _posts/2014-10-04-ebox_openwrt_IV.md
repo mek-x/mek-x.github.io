@@ -2,7 +2,8 @@
 layout: post
 title:  "OpenWRT on Ebox3300 (IV): Adding patches"
 date:   2014-10-04
-categories: openwrt
+tags:   openwrt
+categories: ebox
 ---
 
 In this part, we will deal with enabling not functioning parts of our

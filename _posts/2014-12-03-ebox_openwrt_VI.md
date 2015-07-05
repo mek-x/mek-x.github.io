@@ -2,7 +2,8 @@
 layout: post
 title:  "OpenWRT on Ebox3300 (VI): Adding target to the build system"
 date:   2014-12-03
-categories: openwrt
+tags: openwrt
+categories: ebox
 ---
 
 This is the last part of the quick overview showing how to put and run OpenWRT

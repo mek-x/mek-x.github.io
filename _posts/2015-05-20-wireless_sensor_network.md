@@ -2,7 +2,8 @@
 layout: post
 title:  "Wireless sensors network project"
 date:   2015-05-20
-categories: wireless IoT
+tags:   wireless IoT
+categories: wdan
 ---
 
 Some time ago, I've done a project for my thesis. It was wireless weather data

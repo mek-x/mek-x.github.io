@@ -2,7 +2,8 @@
 layout:     post
 title:      "OpenWRT on Ebox3300 part II"
 date:       2014-09-12
-categories: openwrt
+tags:       openwrt
+categories: ebox
 ---
 
 This part will contain getting the OpenWRT distribution and making basic

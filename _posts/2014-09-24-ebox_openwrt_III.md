@@ -2,7 +2,8 @@
 layout: post
 title:  "OpenWRT on Ebox3300 (III): First run"
 date:   2014-09-24
-categories: openwrt
+tags:   openwrt
+categories: ebox
 ---
 
 In this part we boot the image created using OpenWRT sources. We'll see what is

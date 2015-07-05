@@ -2,7 +2,8 @@
 layout: post
 title:  "OpenWRT on Ebox3300 (V): Networking"
 date:   2014-10-20
-categories: openwrt
+tags:   openwrt
+categories: ebox
 ---
 
 In this part, I'm going to describe my problems and solutions to the networking
